@@ -1,0 +1,55 @@
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+  background-color: greenyellow;
+}
+
+h1 {
+  font-family: "Barlow Condensed", sans-serif;
+  text-align: center;
+  padding: 10px;
+}
+h2 {
+  font-family: "Barlow Condensed", sans-serif;
+  text-align: center;
+  padding: 10px;
+}
+
+p {
+  font-family: "Barlow Condensed", sans-serif;
+}
+
+.video1 {
+  padding-left: 30%;
+}
+.video2 {
+  padding-left: 25%;
+}
+* {
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+}
+
+.layoutdiagram {
+  padding-left: 30%;
+  padding-top: 20px;
+}
+img {
+  padding-bottom: 20px;
+}
+
+.column {
+  float: left;
+  width: 25%;
+}
+
+.column img {
+  height: 350px;
+}
+
+iframe {
+  width: 67%;
+  height: auto;
+  aspect-ratio: 16/9;
+}
