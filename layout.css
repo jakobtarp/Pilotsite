@@ -6,6 +6,7 @@ body {
 
 h1 {
   font-family: "Barlow Condensed", sans-serif;
+  font-weight: bolder;
   text-align: center;
   padding: 10px;
 }
@@ -49,7 +50,7 @@ img {
 }
 
 iframe {
-  width: 67%;
+  width: 68%;
   height: auto;
   aspect-ratio: 16/9;
 }
