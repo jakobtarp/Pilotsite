@@ -4,48 +4,77 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="layout.css" />
+    <title>Pilot projekt</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet" />
-    <title>Rasmus - CGI Artist</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    
-<div class="main"><h1>Rasmus Theilade / CGI Artist</h1>
-<div class="video1">
-    <video width="720" height="405" controls>
-      <source src="video/rasmussite.mp4" type="video/mp4" />
-      <source src="video/rasmussite.mp4" type="video/ogg" />
-    </video>
-    <p>Medvirkende: Rasmus Theilade </p>
-    </div>
+    <main>
+      <section>
+        <article>
+          <div class="content">
+            <h2>Rasmus Theilade / CGI Artist</h2>
+          </div>
+          <figure>
+            <img src="stills/rasmus.webp" alt="" />
+            <figcaption>Rasmus Theilade</figcaption>
+          </figure>
+        </article>
+      </section>
 
-    <h2>Youtube version</h2>
-  <div class="video2">  <iframe width="720" height="405"
-src="https://www.youtube.com/watch?v=DoXt9p58-6c">
-</iframe></div>
+      <section>
+        <article class="flex">
+          <div class="content">
+            <h2>Youtube version</h2>
+          </div>
+          <figure>
+            <div class="video">
+              <iframe width="560" height="315" src="https://www.youtube.com/watch?v=DoXt9p58-6c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          </figure>
+        </article>
 
-    <h2>Stills fra settet</h2>
-      <section class="grid1">
-      <section id="Stills">
+        <article class="flex">
+          <div class="content">
+            <h2>Lokal version</h2>
+          </div>
+          <figure>
+            <video controls src="video/rasmussite.mp4"></video>
+          </figure>
+        </article>
+      </section>
 
-          <div class="column">
-              <img src="stills/Animation.webp" alt="Computer" />
-            </div>
-            <div class="column">
-              <img src="stills/Stortbillede.webp" alt="Kontor" />
-            </div>
-            <div class="column">
-              <img src="stills/interview1.webp" alt="Interview" />
-            </div>
-            <div class="column">
-              <img src="stills/balkon_portræt.webp" alt="Balkon" />
-            </div>
+      <section>
+        <article class="flex">
+          <div class="content">
+            <h2>Stills fra settet</h2>
           </div>
 
-         <h2>Layoutdiagram</h2>
-         <div class="layoutdiagram"><img src="stills/layoutdiagram.png"></div></div>
-            
+          <figure class="gallery-2">
+            <img src="stills/reklame.webp" alt="" />
+            <img src="stills/Stortbillede.webp" alt="" />
+            <img src="stills/Model.webp" alt="" />
+            <img src="stills/Går.webp" alt="" />
+            <img src="stills/Overskulder.webp" />
+            <img src="stills/interview2.webp" />
+          </figure>
+        </article>
+      </section>
+
+      <section>
+        <article class="flex">
+          <div class="content">
+            <h2>Layoutdiagram</h2>
+          </div>
+
+          <figure class="gallery">
+            <img src="stills/layoutdiagram.png" alt="" />
+          </figure>
+        </article>
+      </section>
+    </main>
   </body>
 </html>
+
